@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Philosopher', sans-serif;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+nav ul img{
+    width: 70px;
+    margin-top: -8px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 18px;
+}
+#image{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+.name{
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 4px 5px;
+}
+.name h1{
+    font-size: 40px;
+}
+.name h1:hover{
+    text-shadow: 3px 2px 6px rgb(248, 126, 126);
+}
+.ceo{
+    position: absolute;
+    top: 55%;
+    left: 69%;
+    padding: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 4px 5px;
+}
+.ceo h1{
+    font-size: 40px;
+}
+.ceo h1:hover{
+    text-shadow: 3px 2px 6px rgb(248, 126, 126);
+}
+.pic{
+    display: flex;
+    margin-top: 60px;
+}
+.pic img{
+    width: 250px;
+    margin: 20px;
+    margin-left: 100px;
+    border: 5px groove black;
+}
+.pic img:hover{
+    box-shadow: 6px 6px 5px rgba(255, 62, 62, 0.597);
+}
+.pic .intro{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.pic .intro h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 3px 2px 1px rgba(109, 109, 109, 0.436);
+}
+.pic .intro p{
+    margin-right: 250px;
+    line-height: 2;
+    text-align: justify;
+
+}
+#quote{
+   margin-top: 70px;
+   margin-bottom: 100px;
+   margin-left: 450px;
+   margin-right: 450px;
+   border: 3px solid black;
+   
+}
+#quote h4{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+#products h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 50px;
+    text-shadow: 3px 2px 1px rgba(109, 109, 109, 0.436);
+}
+.row{
+    background-color: rgb(145, 145, 145);
+    width: 100%;
+    height: 830px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row:hover .product{
+    filter: blur(5px);
+}
+.row .product{
+    background-color: rgb(212, 212, 212);
+    height: 470px;
+    width: 250px;
+    margin: 50px;
+    margin-top: 90px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 7px;
+    transition: all 0.2s ease-in-out;
+   
+}
+.row .product:hover{
+filter: blur(0);
+}
+
+.row .product img{
+    width: 70%;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 23px;
+    background-color: azure;
+    padding: 15px;
+    border-radius: 100%;
+    box-shadow: 3px 4px 5px;
+}
+.row .product h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.row .product p{
+    margin: 20px;
+    text-align: justify;
+}
+#note{
+    position: absolute;
+    top: 319%;
+    text-align: justify;
+    line-height: 2;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: rgb(212, 212, 212);
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+   
+}
+.footer .inner{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.footer .inner a{
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.footer .inner a:hover{
+    color: red;
+    font-size: 18px;
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+#gallery h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-shadow: 3px 2px 1px rgba(109, 109, 109, 0.436);
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+    border: 3px groove rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+.gallery img:hover{
+    box-shadow: 3px 4px 5px rgba(220, 34, 34, 0.47);
+    width: 310px;
+    height: 210px;
+}
